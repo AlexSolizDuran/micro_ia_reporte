@@ -5,7 +5,7 @@ import sys
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 # --- CONFIGURACIÓN (Sin cambios) ---
-CARPETA_MODELO_FINAL = "./mi-modelo-entrenado"
+CARPETA_MODELO_FINAL = "./modelo-v1/mi-modelo-entrenado"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 # --- CARGA DEL MODELO (Sin cambios) ---
